@@ -11,6 +11,7 @@ app.use(express.json());
 app.get("/", async (req, res) => {
   res.send("Hello World");
 });
+
 //get all resturants
 app.get("/api/v1/restaurants", async (req, res) => {
   try {
